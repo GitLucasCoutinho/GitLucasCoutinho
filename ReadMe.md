@@ -1,5 +1,4 @@
-# 💫 About Me:
-Atualmente tenho trabalhado em projetos pessoais
+
 
 
 ## 🌐 Socials:
