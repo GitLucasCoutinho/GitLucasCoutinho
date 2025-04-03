@@ -1,5 +1,4 @@
-Sou apaixonado por tecnologias e viciado em resolver problemas.
-
+# 💻 Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas complexos, e meu objetivo é contribuir com minha paixão e habilidades nesse processo. 'As máquinas me surpreendem muito frequentemente,' disse Alan Turing, e essa mesma fascinação me motiva a aprender e crescer constantemente.
 
 ## 🌐 Redes sociais:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/lucas.coutinho/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://br.linkedin.com/in/lucas-coutinho-360) 
