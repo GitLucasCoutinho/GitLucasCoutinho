@@ -18,7 +18,6 @@
 
 # Diagrama Git: Commit, Push, Clone e Comandos Principais
 
-```mermaid
 graph TD
     A[Repositório Remoto (GitHub, GitLab, etc.)] --> B(git clone);
     B --> C[Repositório Local];
@@ -39,3 +38,4 @@ graph TD
     O --> P[Mostra status dos arquivos];
     C --> Q{git log};
     Q --> R[Mostra histórico de commits];
+
