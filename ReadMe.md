@@ -17,6 +17,7 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 # Fluxograma de Contribuição no Repositório DIO
+# Fluxograma de Contribuição no Repositório DIO
 
 ```mermaid
 graph TD
@@ -26,14 +27,20 @@ graph TD
     D --> E{Atualizar Repositório Local};
     E -- git pull upstream main --> F[Mesclar Alterações];
     E -- git fetch upstream main --> G[Baixar Alterações];
-    F --> H[Criar Nova Branch];
+    F --> H[Criar Branch]:::branch;
     G --> H;
-    H --> I{Nomear Branch: feat/community/SEU_USERNAME};
-    I --> J[Criar Arquivo Markdown em community];
-    J --> K{Nomear Arquivo: SEU_USERNAME.md};
-    K --> L[Desenvolver Perfil];
-    L --> M[Adicionar Alterações à Staging Area];
-    M --> N[Criar Commit com Mensagem];
-    N --> O[Enviar Alterações para Repositório Remoto];
-    O --> P[Criar Pull Request];
+    H --> I{Nomear Branch: feat/community/SEU_USERNAME}:::branch;
+    I --> J[Criar Arquivo Markdown em community]:::file;
+    J --> K{Nomear Arquivo: SEU_USERNAME.md}:::file;
+    K --> L[Desenvolver Perfil]:::dev;
+    L --> M[Adicionar Alterações à Staging Area]:::git;
+    M --> N[Criar Commit com Mensagem]:::git;
+    N --> O[Enviar Alterações para Repositório Remoto]:::git;
+    O --> P[Criar Pull Request]:::pr;
     P --> Q[Fim];
+
+    classDef git fill:#ADD8E6,stroke:#4682B4,stroke-width:2px;
+    classDef branch fill:#90EE90,stroke:#006400,stroke-width:2px;
+    classDef file fill:#FFFFE0,stroke:#DAA520,stroke-width:2px;
+    classDef dev fill:#E6E6FA,stroke:#800080,stroke-width:2px;
+    classDef pr fill:#FFB6C1,stroke:#C71585,stroke-width:2px;
