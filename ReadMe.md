@@ -16,8 +16,26 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
+# Diagrama Git: Commit, Push, Clone e Comandos Principais
+
 ```mermaid
-graph TD;
-A[Usuário] --> B[Interface];
-B --> C[Servidor];
-C --> D[Banco de Dados];
+graph TD
+    A[Repositório Remoto (GitHub, GitLab, etc.)] --> B(git clone);
+    B --> C[Repositório Local];
+    C --> D{Modificações nos arquivos};
+    D -- git add --> E[Área de Staging];
+    E -- git commit --> F[Histórico Local de Commits];
+    F --> G{git push};
+    G --> A;
+    A --> H{git pull ou git fetch};
+    H --> C;
+    C --> I{git branch};
+    I --> J[Cria e lista branches];
+    C --> K{git checkout};
+    K --> L[Muda entre branches];
+    C --> M{git merge};
+    M --> N[Mescla branches];
+    C --> O{git status};
+    O --> P[Mostra status dos arquivos];
+    C --> Q{git log};
+    Q --> R[Mostra histórico de commits];
