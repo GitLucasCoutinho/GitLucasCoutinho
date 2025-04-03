@@ -16,21 +16,24 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-# Sistema Solar em Mermaid
+# Fluxograma de Contribuição no Repositório DIO
 
 ```mermaid
-graph LR
-    A[Sol] --> B(Mercúrio);
-    A --> C(Vênus);
-    A --> D(Terra);
-    A --> E(Marte);
-    A --> F(Júpiter);
-    A --> G(Saturno);
-    A --> H(Urano);
-    A --> I(Netuno);
-    subgraph Planetas Internos
-        B; C; D; E;
-    end
-    subgraph Planetas Externos
-        F; G; H; I;
-    end
+graph TD
+    A[Início] --> B{Fork do Repositório};
+    B --> C[Clone Localmente];
+    C --> D[Adicionar Remote Upstream];
+    D --> E{Atualizar Repositório Local};
+    E -- git pull upstream main --> F[Mesclar Alterações];
+    E -- git fetch upstream main --> G[Baixar Alterações];
+    F --> H[Criar Nova Branch];
+    G --> H;
+    H --> I{Nomear Branch: feat/community/SEU_USERNAME};
+    I --> J[Criar Arquivo Markdown em community];
+    J --> K{Nomear Arquivo: SEU_USERNAME.md};
+    K --> L[Desenvolver Perfil];
+    L --> M[Adicionar Alterações à Staging Area];
+    M --> N[Criar Commit com Mensagem];
+    N --> O[Enviar Alterações para Repositório Remoto];
+    O --> P[Criar Pull Request];
+    P --> Q[Fim];
