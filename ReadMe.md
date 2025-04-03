@@ -16,3 +16,32 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
+# Nome do Seu Projeto
+
+Uma breve descrição do seu projeto. Explique o que ele faz e qual é o seu propósito.
+
+## Índice
+
+* [Funcionalidades](#funcionalidades)
+* [Como usar](#como-usar)
+* [Instalação](#instalação)
+* [Pré-requisitos](#pré-requisitos)
+* [Contribuição](#contribuição)
+* [Licença](#licença)
+* [Autor](#autor)
+
+## Funcionalidades
+
+Liste as principais funcionalidades do seu projeto.
+
+* Funcionalidade 1: Descrição da funcionalidade.
+* Funcionalidade 2: Descrição da funcionalidade.
+* Funcionalidade 3: Descrição da funcionalidade.
+
+## Como usar
+
+Explique como usar o seu projeto. Inclua exemplos de código, capturas de tela ou GIFs, se necessário.
+
+```python
+# Exemplo de código
+print("Olá, mundo!")
