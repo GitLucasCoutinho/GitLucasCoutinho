@@ -16,21 +16,3 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-# Fluxo de Transação com Cartão de Crédito
-
-```mermaid
-graph TD
-    A[Cliente] --> B(Loja/Terminal POS);
-    B --> C{Solicitação de Autorização};
-    C --> D[Adquirente (Processador de Pagamentos)];
-    D --> E[Bandeira do Cartão (Visa, Mastercard, etc.)];
-    E --> F[Banco Emissor do Cartão];
-    F --> G{Verificação de Limite e Validade};
-    G -- Aprovação --> H[Autorização da Transação];
-    G -- Negação --> I[Transação Negada];
-    H --> E;
-    E --> D;
-    D --> B;
-    B --> J[Emissão de Comprovante];
-    J --> A;
-    I --> B;
