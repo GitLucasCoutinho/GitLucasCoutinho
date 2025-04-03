@@ -16,24 +16,21 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
+# Fluxo de Transação com Cartão de Crédito
+
 ```mermaid
 graph TD
-    A[Repositório Remoto (GitHub, GitLab, etc.)] --> B(git clone);
-    B --> C[Repositório Local];
-    C --> D{Modificações nos arquivos};
-    D -- git add --> E[Área de Staging];
-    E -- git commit --> F[Histórico Local de Commits];
-    F --> G{git push};
-    G --> A;
-    A --> H{git pull ou git fetch};
-    H --> C;
-    C --> I{git branch};
-    I --> J[Cria e lista branches];
-    C --> K{git checkout};
-    K --> L[Muda entre branches];
-    C --> M{git merge};
-    M --> N[Mescla branches];
-    C --> O{git status};
-    O --> P[Mostra status dos arquivos];
-    C --> Q{git log};
-    Q --> R[Mostra histórico de commits];
+    A[Cliente] --> B(Loja/Terminal POS);
+    B --> C{Solicitação de Autorização};
+    C --> D[Adquirente (Processador de Pagamentos)];
+    D --> E[Bandeira do Cartão (Visa, Mastercard, etc.)];
+    E --> F[Banco Emissor do Cartão];
+    F --> G{Verificação de Limite e Validade};
+    G -- Aprovação --> H[Autorização da Transação];
+    G -- Negação --> I[Transação Negada];
+    H --> E;
+    E --> D;
+    D --> B;
+    B --> J[Emissão de Comprovante];
+    J --> A;
+    I --> B;
