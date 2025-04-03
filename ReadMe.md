@@ -16,19 +16,21 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=GitLucasCoutinho&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-
-# Fluxograma Simplificado da IA
+# Sistema Solar em Mermaid
 
 ```mermaid
-graph TD
-    A[Dados] --> B[Aprendizado];
-    B --> C[Modelo];
-    C --> D[Avaliação];
-    D --> E{Preciso?};
-    E --> F[Implantação];
-    E --> G[Ajuste];
-    G --> C;
-    F --> H[Resultados];
-    H --> I[Uso];
-    I --> J[Melhora];
-    J --> B;
+graph LR
+    A[Sol] --> B(Mercúrio);
+    A --> C(Vênus);
+    A --> D(Terra);
+    A --> E(Marte);
+    A --> F(Júpiter);
+    A --> G(Saturno);
+    A --> H(Urano);
+    A --> I(Netuno);
+    subgraph Planetas Internos
+        B; C; D; E;
+    end
+    subgraph Planetas Externos
+        F; G; H; I;
+    end
