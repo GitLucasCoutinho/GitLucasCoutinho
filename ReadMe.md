@@ -1,4 +1,6 @@
-# 💻 Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas complexos, e meu objetivo é contribuir com minha paixão e habilidades nesse processo. 'As máquinas me surpreendem muito frequentemente,' disse Alan Turing, e essa mesma fascinação me motiva a aprender e crescer constantemente.
+## Sobre Mim
+
+Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas complexos, e meu objetivo é contribuir com minha paixão e habilidades nesse processo. "As máquinas me surpreendem muito frequentemente," disse Alan Turing, e essa mesma fascinação me motiva a aprender e crescer constantemente.
 
 
 # 💻 Já tive a oportunidade de trabalhar com:
