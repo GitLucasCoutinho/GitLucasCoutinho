@@ -17,3 +17,26 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GitLucasCoutinho&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 
+# Fluxograma do Funcionamento da Inteligência Artificial (IA)
+
+```mermaid
+graph TD
+    A[Dados de Entrada] --> B[Aprendizado de Dados];
+    B --> C[Algoritmo de Aprendizado de Máquina];
+    C --> D[Desenvolvimento do Modelo];
+    D --> E[Avaliação do Modelo];
+    E --> F{Modelo Preciso?};
+    F -- Sim --> G[Implantação];
+    F -- Não --> H[Otimização do Modelo];
+    H --> D;
+    G --> I[Dados de Entrada (Novos)];
+    I --> J[Previsões do Modelo];
+    J --> K[Análise e Interpretação];
+    K --> L[Resultados];
+    L --> M[Aplicações];
+    M --> N[Feedback e Melhoria Contínua];
+    N --> C;
+    J --> N;
+    J --> O[Modelo Inadequado];
+    O --> H;
+
