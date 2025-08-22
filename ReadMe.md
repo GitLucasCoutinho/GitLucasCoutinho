@@ -2,16 +2,7 @@
 
 Sou movido pela curiosidade e pela vontade de resolver problemas reais com tecnologia. Acredito que código é mais do que lógica — é uma forma de expressão. Como diria Turing: "As máquinas me surpreendem muito frequentemente." E é essa surpresa que me mantém em constante evolução.
 
-💻 Tecnologias que fazem parte da minha jornada
-Tenho experiência com diversas linguagens, frameworks e ferramentas, mas hoje foco principalmente em:
 
-Back-end: Java, Python, Node.js, .NET, Spring Boot
-Front-end: Angular, Primefaces
-Cloud & DevOps: AWS, Google Cloud, Docker, Kubernetes, Jenkins
-Banco de dados: MongoDB, MySQL, SQL Server
-Ferramentas: Git, Postman, Jira, Trello, Swagger
-
-Outras tecnologias fizeram parte da minha trajetória, e cada uma contribuiu para a forma como penso e crio soluções.
 
 ##💻 Minha trajetória profissional inclui experiência com as seguintes tecnologias:
 
